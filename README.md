@@ -6,12 +6,12 @@ Nesse projeto, foi desenvolvido uma ApiRest utilizando as ferramentas VsCode, Po
 ### Etapas para instalação e utilização:
 * No terminal do VsCode ou de preferência clone o repositório :
 > $ git clone https://github.com/Icaro4fonso/Loja_teste.git
-* No Mysql ou banco de dados de preferência crie uma tabela com o nome "loja_teste".
+* Inicie o seu banco de dados.
+* Crie uma tabela com o nome "loja_teste".
 * Abra o projeto, inicie um novo terminal e digite para iniciar a criação de tabelas:
 > $ php artisan migrate
 * Para iniciar o servidor local:
 > $ php artisan serve
-* Inicie também o seu banco de dados.
 
 #### Para realizar testes as rotas estão disponiveis no link abaixo (Requisito-Postman):
 > https://www.getpostman.com/collections/b5e0829b1cc1aeba976d
