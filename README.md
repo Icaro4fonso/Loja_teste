@@ -9,6 +9,7 @@ Nesse projeto, foi desenvolvido uma ApiRest utilizando as ferramentas VsCode, Po
 * Inicie o seu banco de dados.
 * Crie uma tabela com o nome "loja_teste".
 * Abra o projeto, inicie um novo terminal e digite para iniciar a criação de tabelas:
+>  composer update
 >  php artisan migrate
 * Para iniciar o servidor local:
 > php artisan serve
